@@ -1,0 +1,23 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.page-load-time {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image-load-time {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
